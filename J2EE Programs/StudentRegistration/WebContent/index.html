@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration Form</title>
+</head>
+<body>
+	<form action="registration" method="post">
+		<h2 align="center">Student Registration Form</h2>
+		<h3>Personal Details:</h3>
+		First Name:<input type="text" name="fname" required><br><br>
+		Middle Name:<input type="text" name="mname"><br><br>
+		Last Name:<input type="text" name="lname"> <br><br>
+		Father Name:<input type="text" name="fathername" required> <br><br>
+		Gender: <input type="radio" name="gen" value="Male" checked>Male
+				<input type="radio" name="gen" value="Female">Female <br><br>
+		Date Of Birth: <input type="date" name="dob" required><br><br>
+		Email Id: <input type="email" name="email" required><br><br>
+		Mobile No: <input type="number" name="mobileno" required><br><br>
+		Address: <input type="textarea" name="address" required><br><br>
+		
+	 	<hr>
+	 	
+		<h3>Academic Details:</h3>
+		<h4>10th standard:</h4>
+		Name Of School:<input type="text" name="10_school_name" required><br><br>
+		Board:<input type="text" name="10_board" required><br><br>
+		percentage:<input type="number" name="10_per" required><br><br>
+		year Of Passing: <input type="number" name="10_passyear" required><br><br>
+		
+		<h4>12th Standard:</h4>
+		Name Of School:<input type="text" name="12_school_name" required><br><br>
+		Board:<input type="text" name="12_board" required><br><br>
+		percentage:<input type="number" name="12_per" required><br><br>
+		year Of Passing: <input type="number" name="12_passyear" required><br><br>
+		
+		<h4>Graduation:</h4>
+		Name Of College:<input type="text" name="gr_school_name" required><br><br>
+		Board/University:<input type="text" name="gr_board" required><br><br>
+		percentage:<input type="number" name="gr_per" required><br><br>
+		year Of Passing: <input type="number" name="gr_passyear" required><br><br>
+		
+		<h4>Post Graduation:</h4>
+		Name Of College:<input type="text" name="pg_school_name" required><br><br>
+		Board/University:<input type="text" name="pg_board" required><br><br>
+		percentage:<input type="number" name="pg_per" required><br><br>
+		year Of Passing: <input type="number" name="pg_passyear" required><br><br>
+		
+		<hr> 
+		
+	<h3>Work Experience:</h3>
+		Name Of Company: <input type="text" name="company"><br><br>
+		Duration: <input type="number" name="duration"><br><br>
+		Designation: <input type="text" name="designation"><br><br>
+		Work Description: <input type="textarea" name="description"><br><br> 
+		
+		<input type="submit" name="submit" value="submit">
+		<input type="reset" name="reset" value="reset">
+	</form>
+</body>
+</html>
