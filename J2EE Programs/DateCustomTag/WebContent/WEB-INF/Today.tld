@@ -1,0 +1,11 @@
+<taglib>
+	<tlib-version>2.0</tlib-version>
+	<jsp-version>2.3</jsp-version>
+	<short-name>date</short-name>
+	<uri>Hello</uri>
+
+	<tag>
+		<name>currentDate</name>
+		<tag-class>DateTag</tag-class>
+	</tag>
+</taglib>
